@@ -1,10 +1,5 @@
 # travel-app-backend
 
-web-app can simply search for a destination city, and the app should show:
-  1. The country's current population and GDP per capita
-  2. The weather forecast for that city
-  3. The exchange rate for the country local currency
-
 # Requirements
 
 To execute this project, you need the following:
