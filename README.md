@@ -28,7 +28,3 @@ The following endpoints are available for use:
 ## How to Consume Endpoints
 
 Use the HTTP GET method to consume the exposed endpoints. You can use tools like cURL, Postman, or your preferred web browser to interact with the application.
-
-Exposed Api:
-  api to search city:
-    -GET http://localhost:8080/api/v1/city/search?q={city}
