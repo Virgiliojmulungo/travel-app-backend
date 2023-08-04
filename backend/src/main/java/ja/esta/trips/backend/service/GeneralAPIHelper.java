@@ -51,7 +51,7 @@ private WebServiceUtility webServiceUtility;
 		List<WeatherForecast> forecasts = new ArrayList();
 		for(Map fc: forecastsMap) {
 			WeatherForecast forecast = new WeatherForecast();
-			forecast.setDate(fc.get("dt").toString()); 
+			forecast.setDate(fc.get("dt_txt").toString()); 
 			Map mainMap = (Map)fc.get("main");
 			forecast.setMax((Double) mainMap.get("temp_max"));
 			forecast.setMin((Double) mainMap.get("temp_min"));
