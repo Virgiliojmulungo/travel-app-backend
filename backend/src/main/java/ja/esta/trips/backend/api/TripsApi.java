@@ -66,16 +66,22 @@ public class TripsApi {
 			){
 		CityDetailsUtility util = new CityDetailsUtility(webServiceUtility, city, countryCode, countryName);
 		try {
+			logger.info("Resource Founded");
 			return ResponseEntity.ok(util.go());
 		} catch (IncorrectUrlFormatException e) {
+			logger.warn("Incorrect URL inserted.\n"+ ResponseEntity.badRequest().build().getBody());
 			return  (ResponseEntity<?>) ResponseEntity.badRequest();
 		} catch (FailedUrlConnectionException e) {
+			logger.error("Could not access the URL.");			
 			return  (ResponseEntity<?>) ResponseEntity.badRequest();
 		} catch (IOException e) {
+			logger.error("Server is down.");
 			return (ResponseEntity<?>) ResponseEntity.internalServerError();
 		} catch (ResourceNotFound e) {
+			logger.warn("Resource not found");
 			return (ResponseEntity<?>) ResponseEntity.notFound();
 		} catch (ServerErrorException e) {
+			logger.warn("Server error \n"+ ResponseEntity.badRequest().build().getBody());
 			return  (ResponseEntity<?>) ResponseEntity.badRequest();
 		}
 	}
