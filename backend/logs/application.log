@@ -1,0 +1,6 @@
+12:17:37.377 INFO  - Searching for a city named maputo
+12:17:38.170 INFO  - Found maputo
+[{"name":"Maputo","country":"Mozambique","countryCode":"MZ"},{"name":"Maputo Province","country":"Mozambique","countryCode":"MZ"},{"name":"Maputo","country":"Mozambique","countryCode":"MZ"},{"name":"Maputo","country":"Mozambique","countryCode":"MZ"},{"name":"Maputo","country":"Angola","countryCode":"AO"}]
+12:23:21.798 INFO  - Searching for a city named Maputo
+12:23:22.774 INFO  - Found Maputo
+[{"name":"Maputo","country":"Mozambique","countryCode":"MZ"},{"name":"Maputo Province","country":"Mozambique","countryCode":"MZ"},{"name":"Maputo","country":"Mozambique","countryCode":"MZ"},{"name":"Maputo","country":"Mozambique","countryCode":"MZ"},{"name":"Maputo","country":"Angola","countryCode":"AO"}]

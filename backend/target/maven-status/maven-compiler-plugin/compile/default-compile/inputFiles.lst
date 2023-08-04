@@ -1,0 +1,13 @@
+/home/virgiliomulungo/Music/Teste/backend/src/main/java/ja/esta/trips/backend/service/CitySearchUtility.java
+/home/virgiliomulungo/Music/Teste/backend/src/main/java/ja/esta/trips/backend/BackendApplication.java
+/home/virgiliomulungo/Music/Teste/backend/src/main/java/ja/esta/trips/backend/model/CityDetail.java
+/home/virgiliomulungo/Music/Teste/backend/src/main/java/ja/esta/trips/backend/model/City.java
+/home/virgiliomulungo/Music/Teste/backend/src/main/java/ja/esta/trips/backend/model/WeatherForecast.java
+/home/virgiliomulungo/Music/Teste/backend/src/main/java/ja/esta/trips/backend/exceptions/ServerErrorException.java
+/home/virgiliomulungo/Music/Teste/backend/src/main/java/ja/esta/trips/backend/exceptions/FailedUrlConnectionException.java
+/home/virgiliomulungo/Music/Teste/backend/src/main/java/ja/esta/trips/backend/service/CityDetailsUtility.java
+/home/virgiliomulungo/Music/Teste/backend/src/main/java/ja/esta/trips/backend/api/TripsApi.java
+/home/virgiliomulungo/Music/Teste/backend/src/main/java/ja/esta/trips/backend/service/WebServiceUtility.java
+/home/virgiliomulungo/Music/Teste/backend/src/main/java/ja/esta/trips/backend/service/GeneralAPIHelper.java
+/home/virgiliomulungo/Music/Teste/backend/src/main/java/ja/esta/trips/backend/exceptions/IncorrectUrlFormatException.java
+/home/virgiliomulungo/Music/Teste/backend/src/main/java/ja/esta/trips/backend/exceptions/ResourceNotFound.java
